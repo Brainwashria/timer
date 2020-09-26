@@ -15,7 +15,7 @@
     width: 225px;
     height: 120px;
     background-color: #696969;
-    margin: 20px 15px;
+    margin-top: 40px;
     display: flex;
     justify-content: center;
     align-items: center;

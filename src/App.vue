@@ -32,8 +32,10 @@
   @import url(styles/styles.less);
 
   #app {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(225px, max-content));
+    grid-gap: 44px;
+    justify-content: center;
+    padding: initial;
   }
 </style>

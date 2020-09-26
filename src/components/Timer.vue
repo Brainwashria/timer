@@ -62,7 +62,7 @@
         }
       },
       startTimer () {
-        this.timer = setInterval(() => this.calculate(), 1);
+        this.timer = setInterval(() => this.calculate(), 1000);
         this.isRunning = true;
       },
       stopTimer () {
@@ -79,7 +79,7 @@
     width: 225px;
     height: 120px;
     background-color: #696969;
-    margin: 20px 30px;
+    margin-top: 40px;
     display: flex;
     flex-direction: column;
 
@@ -121,7 +121,7 @@
         }
 
         #pause {
-          background-image: url("../assets/icons/active pause.svg");
+          background-image: url("../assets/icons/activePause.svg");
           width: 10px;
         }
       }
@@ -138,7 +138,7 @@
     .SecondRowOfContainer {
       .buttonController {
         #stop {
-          background-image: url("../assets/icons/active stop.svg");
+          background-image: url("../assets/icons/activeStop.svg");
         }
       }
     }
